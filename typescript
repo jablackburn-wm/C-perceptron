@@ -1,0 +1,26 @@
+Script started on 2023-05-13 16:49:58-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="119" LINES="37"]
+[35m[497 0 ~/lbp-blackburn/Final/perceptron]$[0m exitvalgrind --leak-check=full --show-leak-kinds=all ./a.out train.dat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci perceptron.c[Kalgrind --leak-check=full --show-leak-kinds=all ./a.out train.dat
+==937789== Memcheck, a memory error detector
+==937789== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==937789== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==937789== Command: ./a.out train.dat
+==937789== 
+load_data: loaded 20 examples
+Enter x: 
+0.5
+Enter y: 
+0.5
+Prediction = 1
+==937789== 
+==937789== HEAP SUMMARY:
+==937789==     in use at exit: 0 bytes in 0 blocks
+==937789==   total heap usage: 35 allocs, 35 frees, 20,056 bytes allocated
+==937789== 
+==937789== All heap blocks were freed -- no leaks are possible
+==937789== 
+==937789== For lists of detected and suppressed errors, rerun with: -s
+==937789== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[35m[498 0 ~/lbp-blackburn/Final/perceptron]$[0m exit
+exit
+
+Script done on 2023-05-13 16:50:09-04:00 [COMMAND_EXIT_CODE="0"]
